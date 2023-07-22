@@ -1,0 +1,84 @@
+.chatbox{
+    border: 2px solid grey;
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 10px;
+    background-color: bisque;
+}
+.container{
+    display: flex;
+}
+.container.me{
+    flex-direction: row-reverse;
+}
+.me .chatbox{
+    background-color: rgb(121, 238, 238);
+}
+.btm{
+    position: fixed;
+    width: 76vw;
+    bottom: 9.7vh;
+    display: flex;
+    flex-direction: row;
+}
+.btm input{
+    padding: 10px 0;
+    flex-grow: 1;
+    background-color:  rgb(184, 198, 243);
+    border: 1px solid black ;
+    width: 70vw;
+    color: black;
+}
+.btm button{
+    padding: 10px 50px;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid black ;
+    background-color: rgb(120, 148, 239);
+    cursor: pointer;
+}
+
+.main-container{
+    width: 76vw;
+    height: 80vh;
+    background-color: rgb(231, 234, 244);
+    margin-left: 11vw;
+    margin-top: 5vh;
+    
+    
+}
+.chat-container{
+    height: 72vh;
+    overflow-y: scroll;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.chat-container::-webkit-scrollbar{
+    display: none;
+}
+.user-container{
+    background-color: rgb(120, 148, 239);
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    /* padding:0px; */
+}
+.user-container h3{
+    padding-top: 10px;
+}
+.name-input{
+    
+    padding: 10px;
+    margin-left: 30vw;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+.btn{
+    padding: 10px;
+    margin-left: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+    font-weight: 700;
+}
